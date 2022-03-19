@@ -1,6 +1,6 @@
 # bmi_calculator
 
-A new Flutter project.
+A Flutter study project with GetX.
 
 ## Getting Started
 
