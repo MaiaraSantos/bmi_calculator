@@ -41,14 +41,12 @@ class Home extends GetView<Controller> {
               Button(
                 onPressed: () {
                   controller.calcularIMC();
-                  Get.to(
-                    Get.dialog(
-                      dialogResult(
-                        controller.infoText,
-                        controller.calcularIMC(),
-                        controller.escalaPeso,
-                        controller.infoInterpretacao,
-                      ),
+                  Get.dialog(
+                    dialogResult(
+                      controller.infoText,
+                      controller.calcularIMC(),
+                      controller.escalaPeso,
+                      controller.infoInterpretacao,
                     ),
                   );
                 },
