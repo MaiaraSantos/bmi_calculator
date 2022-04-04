@@ -4,7 +4,7 @@ import 'package:get/get.dart';
 
 void main() {
   runApp(GetMaterialApp(
-    home: const Home(),
+    home: Home(),
     theme: ThemeData(
         scaffoldBackgroundColor: const Color(0xFF090C22),
         primaryColor: const Color(0xFF090C22),
